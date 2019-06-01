@@ -1,0 +1,39 @@
+c:\users\aliabbas\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+c:\users\aliabbas\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+c:\users\aliabbas\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\aliabbas\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\aliabbas\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\MySql.Data.dll
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\MySql.Web.dll
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\MySql.Data.xml
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\MySql.Web.xml
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\HtmlAgilityPack.dll
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\VaderSharp.dll
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\HtmlAgilityPack.pdb
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\HtmlAgilityPack.xml
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\VaderSharp.xml
+C:\Users\Abubakar javaid\Desktop\WebApplication1\WebApplication1\bin\AjaxControlToolkit.dll
+E:\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+E:\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\New folder\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\AjaxControlToolkit.dll
+E:\New folder\WebApplication1\WebApplication1\bin\HtmlAgilityPack.dll
+E:\New folder\WebApplication1\WebApplication1\bin\MySql.Data.dll
+E:\New folder\WebApplication1\WebApplication1\bin\MySql.Web.dll
+E:\New folder\WebApplication1\WebApplication1\bin\VaderSharp.dll
+E:\New folder\WebApplication1\WebApplication1\bin\HtmlAgilityPack.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\HtmlAgilityPack.xml
+E:\New folder\WebApplication1\WebApplication1\bin\MySql.Data.xml
+E:\New folder\WebApplication1\WebApplication1\bin\MySql.Web.xml
+E:\New folder\WebApplication1\WebApplication1\bin\VaderSharp.xml
+E:\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\New folder\WebApplication1\WebApplication1\bin\Facebook.dll
+E:\New folder\WebApplication1\WebApplication1\bin\Facebook.xml

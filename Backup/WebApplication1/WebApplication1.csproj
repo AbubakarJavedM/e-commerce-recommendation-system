@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93696CD2-11DB-439F-B189-DA95A0DDB526}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="assets\css\bootstrapTheme.css" />
+    <Content Include="assets\css\custom.css" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\ico\apple-touch-icon-114-precomposed.png" />
+    <Content Include="assets\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="assets\ico\apple-touch-icon-57-precomposed.png" />
+    <Content Include="assets\ico\apple-touch-icon-72-precomposed.png" />
+    <Content Include="assets\ico\favicon.png" />
+    <Content Include="assets\img\AjaxLoader.gif" />
+    <Content Include="assets\img\demo-slides\controls.png" />
+    <Content Include="assets\img\demo-slides\css3.png" />
+    <Content Include="assets\img\demo-slides\feather.png" />
+    <Content Include="assets\img\demo-slides\grab.png" />
+    <Content Include="assets\img\demo-slides\modern.png" />
+    <Content Include="assets\img\demo-slides\multi.png" />
+    <Content Include="assets\img\demo-slides\responsive.png" />
+    <Content Include="assets\img\demo-slides\tons.png" />
+    <Content Include="assets\img\demo-slides\touch.png" />
+    <Content Include="assets\img\demo-slides\zombie.png" />
+    <Content Include="assets\img\glyphicons-halflings-green.png" />
+    <Content Include="assets\img\glyphicons-halflings-white.png" />
+    <Content Include="assets\img\glyphicons-halflings.png" />
+    <Content Include="assets\img\owl-logo.png" />
+    <Content Include="assets\js\application.js" />
+    <Content Include="assets\js\bootstrap-collapse.js" />
+    <Content Include="assets\js\bootstrap-tab.js" />
+    <Content Include="assets\js\bootstrap-transition.js" />
+    <Content Include="assets\js\google-code-prettify\prettify.css" />
+    <Content Include="assets\js\google-code-prettify\prettify.js" />
+    <Content Include="assets\js\google-code-prettify\run_prettify.js" />
+    <Content Include="assets\js\jquery-1.9.1.min.js" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="demos\assets\fullimage1.jpg" />
+    <Content Include="demos\assets\fullimage2.jpg" />
+    <Content Include="demos\assets\fullimage3.jpg" />
+    <Content Include="demos\assets\fullimage4.jpg" />
+    <Content Include="demos\assets\fullimage5.jpg" />
+    <Content Include="demos\assets\fullimage6.jpg" />
+    <Content Include="demos\assets\fullimage7.jpg" />
+    <Content Include="demos\assets\owl1.jpg" />
+    <Content Include="demos\assets\owl2.jpg" />
+    <Content Include="demos\assets\owl3.jpg" />
+    <Content Include="demos\assets\owl4.jpg" />
+    <Content Include="demos\assets\owl5.jpg" />
+    <Content Include="demos\assets\owl6.jpg" />
+    <Content Include="demos\assets\owl7.jpg" />
+    <Content Include="demos\assets\owl8.jpg" />
+    <Content Include="demos\autoHeight.html" />
+    <Content Include="demos\click.html" />
+    <Content Include="demos\custom.html" />
+    <Content Include="demos\customJson.html" />
+    <Content Include="demos\full.html" />
+    <Content Include="demos\images.html" />
+    <Content Include="demos\itemsCustom.html" />
+    <Content Include="demos\json.html" />
+    <Content Include="demos\lazyLoad.html" />
+    <Content Include="demos\manipulations.html" />
+    <Content Include="demos\navOnTop.html" />
+    <Content Include="demos\navOnTop2.html" />
+    <Content Include="demos\one.html" />
+    <Content Include="demos\owlStatus.html" />
+    <Content Include="demos\progressBar.html" />
+    <Content Include="demos\randomOrder.html" />
+    <Content Include="demos\scaleup.html" />
+    <Content Include="demos\sync.html" />
+    <Content Include="demos\transitions.html" />
+    <Content Include="fonts\bebas_neue\ffonts.net.htm" />
+    <Content Include="fonts\bebas_neue\ffonts.net.txt" />
+    <Content Include="fonts\bebas_neue\install-a-new-font.txt" />
+    <Content Include="fonts\dancing-script\FONTLOG.txt" />
+    <Content Include="fonts\dancing-script\OFL.txt" />
+    <Content Include="fonts\dancing-script\__MACOSX\Dancing Script v1.2\._OFL.txt" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\lato\SIL Open Font License.txt" />
+    <Content Include="fonts\oswald\OFL.txt" />
+    <Content Include="fonts\raleway\SIL Open Font License.txt" />
+    <Content Include="fonts\work-sans\SIL Open Font License.txt" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\myjs.js" />
+    <Content Include="js\New Text Document.txt" />
+    <Content Include="owl-carousel\AjaxLoader.gif" />
+    <Content Include="owl-carousel\grabbing.png" />
+    <Content Include="owl-carousel\owl.carousel.css" />
+    <Content Include="owl-carousel\owl.carousel.js" />
+    <Content Include="owl-carousel\owl.carousel.min.js" />
+    <Content Include="owl-carousel\owl.theme.css" />
+    <Content Include="owl-carousel\owl.transitions.css" />
+    <Content Include="pag1.aspx" />
+    <Content Include="pag2.aspx" />
+    <Content Include="Styles\bootstrap-theme.css" />
+    <Content Include="Styles\bootstrap-theme.min.css" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="fonts\lora\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\bebas-neue-regular.zip" />
+    <Content Include="fonts\BebasNeueBold.zip" />
+    <Content Include="fonts\bebas_neue.zip" />
+    <None Include="demos\json\customData.json" />
+    <None Include="demos\json\data.json" />
+    <None Include="fonts\bebas_neue\BB-BOLD.otf" />
+    <None Include="fonts\bebas_neue\BebasNeue Book.otf" />
+    <None Include="fonts\bebas_neue\BebasNeue Light.otf" />
+    <None Include="fonts\bebas_neue\BebasNeue Regular.otf" />
+    <None Include="fonts\bebas_neue\BebasNeue Regular.ttf" />
+    <None Include="fonts\bebas_neue\BebasNeue Thin.otf" />
+    <None Include="fonts\bebas_neue\EULA Free Font License Ver. 2.0.pdf" />
+    <None Include="fonts\bebas_neue\Glober Pro Specimen.pdf" />
+    <None Include="fonts\bebas_neue\TTF%27s\BebasNeue Bold.ttf" />
+    <None Include="fonts\bebas_neue\TTF%27s\BebasNeue Book.ttf" />
+    <None Include="fonts\bebas_neue\TTF%27s\BebasNeue Light.ttf" />
+    <None Include="fonts\bebas_neue\TTF%27s\BebasNeue Regular.ttf" />
+    <None Include="fonts\bebas_neue\TTF%27s\BebasNeue Thin.ttf" />
+    <None Include="fonts\dancing-script\DancingScript-Bold.ttf" />
+    <None Include="fonts\dancing-script\DancingScript-Regular.ttf" />
+    <None Include="fonts\dancing-script\src\DancingScript-Bold-TTF.vfb" />
+    <None Include="fonts\dancing-script\src\DancingScript-Bold.otf" />
+    <None Include="fonts\dancing-script\src\DancingScript-Bold.vfb" />
+    <None Include="fonts\dancing-script\src\DancingScript-Regular-TTF.vfb" />
+    <None Include="fonts\dancing-script\src\DancingScript-Regular.otf" />
+    <None Include="fonts\dancing-script\src\DancingScript-Regular.vfb" />
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="fonts\font-awesome\less\animated.less" />
+    <None Include="fonts\font-awesome\less\bordered-pulled.less" />
+    <None Include="fonts\font-awesome\less\core.less" />
+    <None Include="fonts\font-awesome\less\fixed-width.less" />
+    <None Include="fonts\font-awesome\less\font-awesome.less" />
+    <None Include="fonts\font-awesome\less\icons.less" />
+    <None Include="fonts\font-awesome\less\larger.less" />
+    <None Include="fonts\font-awesome\less\list.less" />
+    <None Include="fonts\font-awesome\less\mixins.less" />
+    <None Include="fonts\font-awesome\less\path.less" />
+    <None Include="fonts\font-awesome\less\rotated-flipped.less" />
+    <None Include="fonts\font-awesome\less\stacked.less" />
+    <None Include="fonts\font-awesome\less\variables.less" />
+    <None Include="fonts\font-awesome\scss\font-awesome.scss" />
+    <None Include="fonts\font-awesome\scss\_animated.scss" />
+    <None Include="fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="fonts\font-awesome\scss\_core.scss" />
+    <None Include="fonts\font-awesome\scss\_fixed-width.scss" />
+    <None Include="fonts\font-awesome\scss\_icons.scss" />
+    <None Include="fonts\font-awesome\scss\_larger.scss" />
+    <None Include="fonts\font-awesome\scss\_list.scss" />
+    <None Include="fonts\font-awesome\scss\_mixins.scss" />
+    <None Include="fonts\font-awesome\scss\_path.scss" />
+    <None Include="fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="fonts\font-awesome\scss\_stacked.scss" />
+    <None Include="fonts\font-awesome\scss\_variables.scss" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="fonts\lato\Lato-Black.ttf" />
+    <None Include="fonts\lato\Lato-BlackItalic.ttf" />
+    <None Include="fonts\lato\Lato-Bold.ttf" />
+    <None Include="fonts\lato\Lato-BoldItalic.ttf" />
+    <None Include="fonts\lato\Lato-Hairline.ttf" />
+    <None Include="fonts\lato\Lato-HairlineItalic.ttf" />
+    <None Include="fonts\lato\Lato-Heavy.ttf" />
+    <None Include="fonts\lato\Lato-HeavyItalic.ttf" />
+    <None Include="fonts\lato\Lato-Italic.ttf" />
+    <None Include="fonts\lato\Lato-Light.ttf" />
+    <None Include="fonts\lato\Lato-LightItalic.ttf" />
+    <None Include="fonts\lato\Lato-Medium.ttf" />
+    <None Include="fonts\lato\Lato-MediumItalic.ttf" />
+    <None Include="fonts\lato\Lato-Regular.ttf" />
+    <None Include="fonts\lato\Lato-Semibold.ttf" />
+    <None Include="fonts\lato\Lato-SemiboldItalic.ttf" />
+    <None Include="fonts\lato\Lato-Thin.ttf" />
+    <None Include="fonts\lato\Lato-ThinItalic.ttf" />
+    <None Include="fonts\myriad-pro\AkzidenzGroteskBE-Regular.otf" />
+    <None Include="fonts\myriad-pro\BodoniSvtyTwoITCTTBold.ttf" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-BOLD.OTF" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-BOLDCOND.OTF" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-BOLDCONDIT.OTF" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-BOLDIT.OTF" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-COND.OTF" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-CONDIT.OTF" />
+    <None Include="fonts\myriad-pro\MyriadPro-Regular.otf" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-SEMIBOLD.OTF" />
+    <None Include="fonts\myriad-pro\MYRIADPRO-SEMIBOLDIT.OTF" />
+    <None Include="fonts\open-sans\Candara Bold Italic.ttf" />
+    <None Include="fonts\open-sans\OpenSans-Bold.ttf" />
+    <None Include="fonts\open-sans\OpenSans-BoldItalic.ttf" />
+    <None Include="fonts\open-sans\OpenSans-ExtraBold.ttf" />
+    <None Include="fonts\open-sans\OpenSans-ExtraBoldItalic.ttf" />
+    <None Include="fonts\open-sans\OpenSans-Italic.ttf" />
+    <None Include="fonts\open-sans\OpenSans-Light.ttf" />
+    <None Include="fonts\open-sans\OpenSans-LightItalic.ttf" />
+    <None Include="fonts\open-sans\OpenSans-Regular.ttf" />
+    <None Include="fonts\open-sans\OpenSans-Semibold.ttf" />
+    <None Include="fonts\open-sans\OpenSans-SemiboldItalic.ttf" />
+    <None Include="fonts\oswald\Oswald-Bold.ttf" />
+    <None Include="fonts\oswald\Oswald-Light.ttf" />
+    <None Include="fonts\oswald\Oswald-Regular.ttf" />
+    <Content Include="fonts\oswald\oswald.zip" />
+    <None Include="fonts\raleway\Raleway-Black.ttf" />
+    <None Include="fonts\raleway\Raleway-BlackItalic.ttf" />
+    <None Include="fonts\raleway\Raleway-Bold.ttf" />
+    <None Include="fonts\raleway\Raleway-BoldItalic.ttf" />
+    <None Include="fonts\raleway\Raleway-ExtraBold.ttf" />
+    <None Include="fonts\raleway\Raleway-ExtraBoldItalic.ttf" />
+    <None Include="fonts\raleway\Raleway-ExtraLight.ttf" />
+    <None Include="fonts\raleway\Raleway-ExtraLightItalic.ttf" />
+    <None Include="fonts\raleway\Raleway-Italic.ttf" />
+    <None Include="fonts\raleway\Raleway-Light.ttf" />
+    <None Include="fonts\raleway\Raleway-LightItalic.ttf" />
+    <None Include="fonts\raleway\Raleway-Medium.ttf" />
+    <None Include="fonts\raleway\Raleway-MediumItalic.ttf" />
+    <None Include="fonts\raleway\Raleway-Regular.ttf" />
+    <None Include="fonts\raleway\Raleway-SemiBold.ttf" />
+    <None Include="fonts\raleway\Raleway-SemiBoldItalic.ttf" />
+    <None Include="fonts\raleway\Raleway-Thin.ttf" />
+    <None Include="fonts\raleway\Raleway-ThinItalic.ttf" />
+    <None Include="fonts\work-sans\WorkSans-Black.otf" />
+    <None Include="fonts\work-sans\WorkSans-Bold.otf" />
+    <None Include="fonts\work-sans\WorkSans-ExtraBold.otf" />
+    <None Include="fonts\work-sans\WorkSans-ExtraLight.otf" />
+    <None Include="fonts\work-sans\WorkSans-Hairline.otf" />
+    <None Include="fonts\work-sans\WorkSans-Light.otf" />
+    <None Include="fonts\work-sans\WorkSans-Medium.otf" />
+    <None Include="fonts\work-sans\WorkSans-Regular.otf" />
+    <None Include="fonts\work-sans\WorkSans-SemiBold.otf" />
+    <None Include="fonts\work-sans\WorkSans-Thin.otf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3365</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
